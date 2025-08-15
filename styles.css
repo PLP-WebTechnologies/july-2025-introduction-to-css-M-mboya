@@ -1,0 +1,66 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.site-header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #004d40;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #004d40;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Card Sections */
+.card {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; /* Demonstrates Box Model effect */
+}
+
+.card h2 {
+    color: #00796b;
+    margin-top: 0;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
